@@ -1,0 +1,19 @@
+.title{
+  text-align: center;
+  border:solid 1px black;
+  max-width:100vw;
+  background-image: url('https://lh3.googleusercontent.com/proxy/ltuEu1QJFDcGNw3WdrhTfw6icDLinWuapcj9r12TXFBa96-soHbSXqHDfS3r1VYshTuYL1hWGq9zMzHg3FIo73qTbpZ8l4iNtB8EQjpdGFO4sIb-cT3X4fvSnbexp3Bt6KySi6oo_ds');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: red;
+}
+.imgstyle{
+  height: 120px;
+  width: 250px;
+}
+.imgstyle2{
+  height: 150px;
+  width: 250px;
+  margin-top: -60px;
+}
