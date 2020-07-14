@@ -1,9 +1,9 @@
 
  import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
+import './style.css';
 import welcomeword from "./welcomeword.png"
-import video from "./video.mp4";
+
 
 function App() {
  
@@ -16,15 +16,17 @@ function App() {
 </h1>  
 
      <br/>  
-<div className="imagesinline">
-       <img className="imgstyle" src={welcomeword} /> <br/> 
 
-       <img className="imgstyle2" src="/beautyword.png" /> 
-       </div>     
+       <img className="imgstyle" src={welcomeword} alt="Welcome" /> 
+       <br/> 
+       <img className="imgstyle2" src="/beautyword.png" alt="Beauty" /> 
+          
 </div>  
 
 <video width="100%" height="500px" controls>  
-<video src={video} />
+<source src="video.mp4" type="video/mp4"/>
+  
+ 
 
 </video> 
         </div>
@@ -32,3 +34,4 @@ function App() {
 }
 
 export default App;
+
